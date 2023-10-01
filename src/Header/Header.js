@@ -3,27 +3,31 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <header className={styles.headerContainer}>
-      <nav class="nav">
-        <div class="nav-container">
+      <nav className={styles.nav}>
+        <div className={styles.navContainer}>
           <p>moja firma</p>
-          <ul class="nav-item-container">
-            <div class="nav-item">
-              <a class="nav-item-btn" href="#about" title="Idź do sekcji O NAS">
+          <ul className={styles.navItemContainer}>
+            <div className={styles.navItem}>
+              <a
+                className={styles.navItemBtn}
+                href="#about"
+                title="Idź do sekcji O NAS"
+              >
                 o nas
               </a>
             </div>
-            <div class="nav-item">
+            <div className={styles.navItem}>
               <a
-                class="nav-item-btn"
+                className={styles.navItemBtn}
                 href="#offer"
                 title="Idź do sekcji OFERTA"
               >
                 oferta
               </a>
             </div>
-            <div class="nav-item">
+            <div className={styles.navItem}>
               <a
-                class="nav-item-contact-btn"
+                className={styles.navItemContactBtn}
                 title="
             kontakt"
               >
@@ -33,17 +37,19 @@ const Header = () => {
           </ul>
         </div>
       </nav>
-      <div class="shadow">
+      <div className={styles.shadow}>
         <section
-          class="landing-page"
+          className={styles.landingPage}
           style={{ backgroundImage: "url(/assets/section-background.png)" }}
         >
-          <div class="landing-page-container">
-            <h1 class="heading-landing-page">
+          <div className={styles.landinPageContainer}>
+            <h1 className={styles.headingLandingPage}>
               Nasza firma oferuje najwyższej jakości produkty.
             </h1>
-            <p class="primary-paragraph">Nie wierz nam na słowo - sprawdź</p>
-            <a class="offer-btn" href="#offer">
+            <p className={styles.primaryParagraph}>
+              Nie wierz nam na słowo - sprawdź
+            </p>
+            <a className={styles.offerBtn} href="#offer">
               oferta
             </a>
           </div>
