@@ -42,7 +42,7 @@ const Header = () => {
           className={styles.landingPage}
           style={{ backgroundImage: "url(/assets/section-background.png)" }}
         >
-          <div className={styles.landinPageContainer}>
+          <div className={styles.landingPageContainer}>
             <h1 className={styles.headingLandingPage}>
               Nasza firma oferuje najwyższej jakości produkty.
             </h1>

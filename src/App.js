@@ -5,6 +5,10 @@ function App() {
   return (
     <>
       <Header />
+      <main className="main section">
+        <div>specjaliści</div>
+        <div>oferty</div>
+      </main>
     </>
   );
 }

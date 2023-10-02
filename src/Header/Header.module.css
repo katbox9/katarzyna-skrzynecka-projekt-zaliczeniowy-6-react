@@ -54,12 +54,13 @@ shadow {
   line-height: normal;
 }
 .headingLandingPage {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
   width: 577px;
-  height: 46px;
+  /* height: 46px; */
   font-size: 36px;
+  margin: 0;
 }
 .primaryParagraph {
   display: flex;

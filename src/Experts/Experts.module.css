@@ -1,0 +1,61 @@
+.primary-main-container {
+  background-color: #f1f1f1;
+}
+.primary-content-wraper,
+.secondary-content-wraper {
+  width: 960px;
+  margin: 0 auto;
+}
+.primary-main-heading,
+.secondary-main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 51px;
+  color: #152d41;
+}
+.specialists-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  width: 960px;
+  height: 672px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 18px;
+}
+.first-specjalist,
+.second-specjalist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.specjalist-pic-Piotr-item,
+.specjalist-pic-Marek-item {
+  width: 197px;
+  height: 197px;
+  border: solid 1px black;
+  border-radius: 50%;
+  background-size: cover;
+}
+.specjalist-pic-Marek-item {
+  background-image: url(/assets/Marek-Nowak.png);
+}
+.specjalist-pic-Piotr-item {
+  background-image: url(/assets/Piotr-Kowalski.png);
+  order: 1;
+}
+.specialists-heading {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.specjalist-text-Marek,
+.specjalist-text-Piotr {
+  width: 700px;
+  font-size: 18px;
+}
+.specjalist-text-Piotr {
+  text-align: right;
+}
