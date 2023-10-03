@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <main className={styles.mainSection}>
-        <div>specjaliści</div>
+        {/* <div>specjaliści</div> */}
         <Offers />
       </main>
     </>
