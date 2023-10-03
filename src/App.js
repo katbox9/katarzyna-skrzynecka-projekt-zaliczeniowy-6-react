@@ -1,13 +1,14 @@
 import styles from "./App.module.css";
-import Header from "./Header/Header";
+import Header from "./Components/Header/Header";
+import Offers from "./Components/Offers/Offers";
 
 function App() {
   return (
     <>
       <Header />
-      <main className="main section">
+      <main className={styles.mainSection}>
         <div>specjaliści</div>
-        <div>oferty</div>
+        <Offers />
       </main>
     </>
   );
