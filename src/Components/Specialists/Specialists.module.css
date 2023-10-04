@@ -1,13 +1,11 @@
 .primaryMainContainer {
   background-color: #f1f1f1;
 }
-.primaryContentWraper,
-.secondaryContentWraper {
+.primaryContentWraper {
   width: 960px;
   margin: 0 auto;
 }
-.primaryMainHeading,
-.secondaryMainHeading {
+.primaryMainHeading {
   font-size: 36px;
   font-weight: 700;
   padding-top: 51px;

@@ -40,7 +40,7 @@ const Header = () => {
       <div className={styles.shadow}>
         <section
           className={styles.landingPage}
-          style={{ backgroundImage: "url(/assets/section-background.png)" }}
+          style={{ backgroundImage: "url(/src/assets/section-background.png)" }}
         >
           <div className={styles.landingPageContainer}>
             <h1 className={styles.headingLandingPage}>

@@ -14,7 +14,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} color="white" />
           </a>
 
-          <a className={style.iconsBtn} href="#">
+          <a className={styles.iconsBtn} href="#">
             <FontAwesomeIcon icon={faFacebook} color="white" />
           </a>
         </div>

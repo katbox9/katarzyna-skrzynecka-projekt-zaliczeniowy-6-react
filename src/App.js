@@ -10,6 +10,7 @@ function App() {
       <Header />
       <main className={styles.mainSection}>
         <Specialists />
+
         <Offers />
       </main>
       <Footer />
