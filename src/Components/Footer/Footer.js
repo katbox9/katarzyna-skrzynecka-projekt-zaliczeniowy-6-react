@@ -17,7 +17,7 @@ const Footer = () => {
             ></i>
           </a>
 
-          <a className="icons-btn" href="#">
+          <a className={style.iconsBtn} href="#">
             <i
               className="fa-brands fa-square-facebook fa-2xl"
               style="color: #ffffff"

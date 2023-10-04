@@ -41,10 +41,10 @@
   background-size: cover;
 }
 .specjalistPicMarekItem {
-  background-image: url(/assets/Marek-Nowak.png);
+  background-image: url(/src/assets/Marek-Nowak.png);
 }
 .specjalistPicPiotrItem {
-  background-image: url(/assets/Piotr-Kowalski.png);
+  background-image: url(/src/assets/Piotr-Kowalski.png);
   order: 1;
 }
 .specialistsHeading {
