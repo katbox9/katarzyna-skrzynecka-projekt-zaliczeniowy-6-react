@@ -1,4 +1,6 @@
 import styles from "./Footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -9,21 +11,11 @@ const Footer = () => {
         </div>
         <div className={styles.iconsContainer}>
           <a className={styles.iconsBtn} href="#">
-            <i
-              className="fa-brands fa-instagram fa-2xl"
-              style="color: #ffffff"
-              title="Odwiedź nasz Instagram"
-              alt="Profil firmy na Instagram"
-            ></i>
+            <FontAwesomeIcon icon={faInstagram} color="white" />
           </a>
 
           <a className={style.iconsBtn} href="#">
-            <i
-              className="fa-brands fa-square-facebook fa-2xl"
-              style="color: #ffffff"
-              title="Odwiedź nasz Facebook"
-              alt="Profil firmy na Facebook"
-            ></i>
+            <FontAwesomeIcon icon={faFacebook} color="white" />
           </a>
         </div>
       </div>
