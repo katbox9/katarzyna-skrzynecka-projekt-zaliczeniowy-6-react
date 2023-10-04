@@ -1,0 +1,24 @@
+.footerContainer {
+  background-color: #4e4e4e;
+}
+.footerWraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  height: 71px;
+  margin: 0 auto;
+}
+.footerText {
+  color: white;
+}
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 18px;
+}
+.iconsBtn {
+  cursor: pointer;
+  text-decoration: none;
+}

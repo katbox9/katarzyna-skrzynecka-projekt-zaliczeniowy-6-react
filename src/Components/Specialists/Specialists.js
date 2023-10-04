@@ -1,6 +1,6 @@
-import styles from "./Experts.module.css";
+import styles from "./Specialists.module.css";
 
-const Experts = () => {
+const Specialists = () => {
   return (
     <section className={styles.primaryMainContainer}>
       <div className={styles.primaryContentWraper}>
@@ -40,4 +40,4 @@ const Experts = () => {
   );
 };
 
-export default Experts;
+export default Specialists;

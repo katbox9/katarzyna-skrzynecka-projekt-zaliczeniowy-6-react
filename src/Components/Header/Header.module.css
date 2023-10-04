@@ -31,6 +31,7 @@
   background-color: #000000d1;
 }
 .landingPage {
+  background-image: url(/src/assets/section-background.png);
   background-size: cover;
   background-position: center;
 }
