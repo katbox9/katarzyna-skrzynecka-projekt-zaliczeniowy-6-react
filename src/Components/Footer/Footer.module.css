@@ -15,7 +15,7 @@
 .iconsContainer {
   display: flex;
   justify-content: center;
-  align-content: center;
+  /* align-content: center; */
   gap: 18px;
 }
 .iconsBtn {

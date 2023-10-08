@@ -11,11 +11,23 @@ const Footer = () => {
         </div>
         <div className={styles.iconsContainer}>
           <a className={styles.iconsBtn} href="#">
-            <FontAwesomeIcon icon={faInstagram} color="white" />
+            <FontAwesomeIcon
+              icon={faInstagram}
+              color="white"
+              title="Odwiedź nasz Instagram"
+              aria-label="Instagram"
+              size={25}
+            />
           </a>
 
           <a className={styles.iconsBtn} href="#">
-            <FontAwesomeIcon icon={faFacebook} color="white" />
+            <FontAwesomeIcon
+              icon={faFacebook}
+              color="white"
+              title="Odwiedź nasz Facebook"
+              aria-label="Facebook"
+              size={25}
+            />
           </a>
         </div>
       </div>
