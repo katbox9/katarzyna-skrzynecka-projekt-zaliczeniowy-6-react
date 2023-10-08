@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import background from "../../assets/section-background.png";
 
 const Header = () => {
   return (
@@ -40,7 +41,9 @@ const Header = () => {
       <div className={styles.shadow}>
         <section
           className={styles.landingPage}
-          style={{ backgroundImage: "url(/src/assets/section-background.png)" }}
+          style={{
+            backgroundImage: `url(${background})`,
+          }}
         >
           <div className={styles.landingPageContainer}>
             <h1 className={styles.headingLandingPage}>
