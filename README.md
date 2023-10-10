@@ -6,7 +6,7 @@ The sixth final project for the Frontend Developer course.
 
 [The current look of the project at Netlify.](https://kat-skrzynecka-projekt-zaliczeniowy-5.netlify.app/)
 
-![Screenshot](</src/assets/landing-page-screenshot%20(2).jpg>)
+![Screenshot](/src/assets/landing-page-screenshot.jpg)
 
 ## Description
 
