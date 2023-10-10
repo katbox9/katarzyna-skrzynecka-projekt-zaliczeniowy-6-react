@@ -14,7 +14,6 @@ The code was written in **React** environment.
 
 The guidelines were to:
 
-- create simple currency conversion app,
 - push this project's repo on **GitHub**,
 - deploy the code on **Netlify**,
 - format the code with an extenction called **Prettier**.
