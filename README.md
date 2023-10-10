@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # KatarzynaSkrzynecka_Projekt-zaliczeniowy-6-React
 
 The sixth final project for the Frontend Developer course.
