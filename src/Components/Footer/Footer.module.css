@@ -11,11 +11,11 @@
 }
 .footerText {
   color: white;
+  font-size: 18px;
 }
 .iconsContainer {
   display: flex;
   justify-content: center;
-  /* align-content: center; */
   gap: 18px;
 }
 .iconsBtn {
