@@ -10,23 +10,23 @@ const Footer = () => {
           Nazwa firmy - wszelkie prawa zastrzeżone, 2019
         </div>
         <div className={styles.iconsContainer}>
-          <a className={styles.iconsBtn} href="#">
+          <a className={styles.iconsBtn} href="/#">
             <FontAwesomeIcon
               icon={faInstagram}
               color="white"
               title="Odwiedź nasz Instagram"
               aria-label="Instagram"
-              size={25}
+              size="2x"
             />
           </a>
 
-          <a className={styles.iconsBtn} href="#">
+          <a className={styles.iconsBtn} href="/#">
             <FontAwesomeIcon
               icon={faFacebook}
               color="white"
               title="Odwiedź nasz Facebook"
               aria-label="Facebook"
-              size={25}
+              size="2x"
             />
           </a>
         </div>

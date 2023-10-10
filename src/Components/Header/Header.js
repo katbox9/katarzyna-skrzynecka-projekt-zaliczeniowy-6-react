@@ -28,6 +28,7 @@ const Header = () => {
             </div>
             <div className={styles.navItem}>
               <a
+                href="/#"
                 className={styles.navItemContactBtn}
                 title="
             kontakt"
