@@ -18,4 +18,3 @@ The guidelines were to:
 - push this project's repo on **GitHub**,
 - deploy the code on **Netlify**,
 - format the code with an extenction called **Prettier**.
->>>>>>> d35697ba2ef43ccfe4eb2d11470502dcd1b1380d
