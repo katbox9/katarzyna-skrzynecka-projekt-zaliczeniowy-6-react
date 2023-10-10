@@ -1,4 +1,3 @@
 .mainSection {
-  justify-content: center;
-  align-content: center;
+  scroll-behavior: smooth;
 }
