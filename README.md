@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # KatarzynaSkrzynecka_Projekt-zaliczeniowy-6-React
 
 The sixth final project for the Frontend Developer course.
@@ -16,8 +14,6 @@ The code was written in **React** environment.
 
 The guidelines were to:
 
-- create simple currency conversion app,
 - push this project's repo on **GitHub**,
 - deploy the code on **Netlify**,
 - format the code with an extenction called **Prettier**.
->>>>>>> d35697ba2ef43ccfe4eb2d11470502dcd1b1380d
