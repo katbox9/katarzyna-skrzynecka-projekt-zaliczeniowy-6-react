@@ -37,6 +37,10 @@
 .offerItem:hover {
   transform: scale(1.05);
 }
+.paragraphs {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
 .redDot {
   position: absolute;
   top: -10px;
