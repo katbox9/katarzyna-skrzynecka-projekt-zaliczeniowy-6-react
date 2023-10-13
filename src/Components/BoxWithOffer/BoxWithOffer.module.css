@@ -1,0 +1,31 @@
+.offerItem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+  width: 198px;
+  height: 194px;
+  background: #f1f1f1;
+  color: #000;
+  font-size: 24px;
+}
+.offerItem:hover {
+  transform: scale(1.05);
+}
+.paragraphs {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.redDot {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 100;
+  width: 21px;
+  height: 21px;
+  border: solid 1px #e07a64;
+  border-radius: 50%;
+  background-color: #e07a64;
+}

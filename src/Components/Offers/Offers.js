@@ -1,5 +1,6 @@
 import styles from "./Offers.module.css";
 import offers from "../../data/offers";
+import BoxWithOffer from "../BoxWithOffer/BoxWithOffer";
 
 const Offers = () => {
   return (
@@ -11,17 +12,7 @@ const Offers = () => {
         <section className={styles.offerSection} id="offer">
           <div className={styles.offerContainer}>
             {offers.map((item) => {
-              return (
-                <div className={styles.offerItem}>
-                  <p className={styles.paragraphs}>{item.name}</p>
-                  {item.isNew === true ? (
-                    <p className={styles.paragraphs}>(nowość)</p>
-                  ) : null}
-                  {item.isNew === true ? (
-                    <div className={styles.redDot}></div>
-                  ) : null}
-                </div>
-              );
+              return <BoxWithOffer item={item} />;
             })}
           </div>
         </section>
